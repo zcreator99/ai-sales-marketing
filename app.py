@@ -9,7 +9,7 @@ st.title("📊 Trợ lý Phân tích Sales & Marketing AI")
 # --- CẤU HÌNH API KEY ---
 # Thay thế 'YOUR_API_KEY' bằng API Key thực tế của bạn
 # Tốt nhất là nên nhập trực tiếp trên giao diện để bảo mật
-api_key = st.sidebar.text_input("AIzaSyBRsbvcLf-eMFqTDoBnnnsWL8bfBmm_SnI", type="password")
+api_key = st.sidebar.text_input("", type="password")
 
 def configure_ai(api_key):
     if api_key:
